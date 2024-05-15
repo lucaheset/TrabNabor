@@ -1,0 +1,3 @@
+docker-compose -f docker-compose1.yml up
+docker-compose -f docker-compose2.yml up
+docker-compose -f docker-compose3.yml up

@@ -1,0 +1,12 @@
+Method ,Name                ,Error                                                                             ,Occurrences
+GET    ,/?p=1               ,RemoteDisconnected('Remote end closed connection without response')               ,        127
+GET    ,/2024/05/15/teste3/ ,RemoteDisconnected('Remote end closed connection without response')               ,          1
+GET    ,/2024/05/06/teste/  ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/06/teste/')  ,      21429
+GET    ,/2024/05/06/teste/  ,"ConnectionResetError(104, 'Connection reset by peer')"                           ,         18
+GET    ,/?p=1               ,HTTPError('500 Server Error: Internal Server Error for url: /?p=1')               ,      10755
+GET    ,/2024/05/15/teste2/ ,RemoteDisconnected('Remote end closed connection without response')               ,          8
+GET    ,/2024/05/15/teste2/ ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/15/teste2/') ,      22469
+GET    ,/?p=1               ,"ConnectionResetError(104, 'Connection reset by peer')"                           ,          9
+GET    ,/2024/05/06/teste/  ,RemoteDisconnected('Remote end closed connection without response')               ,        223
+GET    ,/2024/05/15/teste2/ ,"ConnectionResetError(104, 'Connection reset by peer')"                           ,          2
+GET    ,/2024/05/15/teste3/ ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/15/teste3/') ,      22173

@@ -1,0 +1,5 @@
+Method ,Name                ,Error                                                                             ,Occurrences
+GET    ,/2024/05/06/teste/  ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/06/teste/')  ,       9057
+GET    ,/?p=1               ,HTTPError('500 Server Error: Internal Server Error for url: /?p=1')               ,       4434
+GET    ,/2024/05/15/teste2/ ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/15/teste2/') ,       8994
+GET    ,/2024/05/15/teste3/ ,HTTPError('500 Server Error: Internal Server Error for url: /2024/05/15/teste3/') ,       8976
